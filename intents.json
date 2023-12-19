@@ -1,0 +1,108 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"],
+      "context": [
+        ""
+      ]
+    },
+
+
+    {
+      "tag": "circuit breaker",
+      "patterns": [
+        "how to do maintenance of circuit breaker?",
+        "how to fix ciruit breaker?",
+        "issues with circuit breaker",
+        "basic maintenance of circuit breaker"
+      ],
+      "responses": [
+     "\n***Note: Before starting any maintenance, always ensure that the circuit breaker is de-energized and follow appropriate safety procedures. Use personal protective equipment (PPE) as required. If you are unsure or uncomfortable with any step, consult with a qualified professional.\n\n1.Safety Check:\n   - Verify that the circuit breaker is de-energized.\n   - Follow lockout/tagout procedures to isolate and secure the circuit.\n\n2. Visual Inspection:\n   - Inspect the circuit breaker for any physical damage, such as cracks, dents, or signs of overheating.\n   - Check for loose or damaged components.\n\n3. **Cleanliness:**\n   - Remove any dust, dirt, or debris from the circuit breaker using a soft brush or compressed air.\n   - Clean the surroundings to prevent foreign objects from interfering with the breaker's operation.\n\n4. **Tighten Connections:**\n   - Inspect terminal connections and bus bar connections for tightness.\n   - Use the appropriate tools to tighten any loose connections.\n\n5. **Functional Testing:**\n   - Follow the manufacturer's guidelines for functional testing.\n   - Test the circuit breaker's trip and close operations to ensure proper functionality.\n\n6. **Lubrication:**\n   - If applicable, lubricate moving parts according to the manufacturer's recommendations.\n   - Use the specified lubricants compatible with the breaker's materials.\n\n7. **Insulation Resistance Test:**\n   - Perform an insulation resistance test using a megohmmeter.\n   - Follow safety procedures, and record the insulation resistance values.\n\n8. **Contact Resistance Test:**\n   - Use a micro-ohmmeter to measure contact resistance.\n   - Compare the results with the manufacturer's specifications.\n\n9. **Check Arc Chutes:**\n   - Inspect the arc chutes for damage or wear.\n   - Replace damaged or worn-out arc chutes as needed.\n\n10. **Check Operating Mechanism:**\n    - Inspect the operating mechanism for signs of wear, corrosion, or damage.\n    - Lubricate moving parts if required.\n\n11. **Review Manufacturer Guidelines:**\n    - Refer to the manufacturer's maintenance manual for any specific instructions or recommendations.\n    - Follow the guidelines for your particular circuit breaker model.\n\n12. **Documentation:**\n    - Record all maintenance activities, including test results, repairs, and replacements.\n    - Maintain a log for future reference and compliance purposes.\n\nAlways prioritize safety, and if you encounter any issues during the maintenance process, consult with a qualified electrician or the manufacturer for further guidance. Regular maintenance contributes to the reliable and safe operation of the circuit breaker.\n"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "distribution line reclosure",
+      "patterns": [
+        "how to do maintenance of distribution line reclosure or PTR?",
+        "how to fix a distribution line reclosure or PTR",
+        "issues with distribution line reclosure or PTR",
+        "basic maintenance of distribution line reclosure or PTR",
+        "distribution line reclosure"
+      ],
+      "responses": [
+        "OK! Here is a basic procedure for testing and maintainance of distribution line reclosure or PTR:\n1. Safety Precautions:\n - Prioritize safety by wearing appropriate personal protective equipment (PPE) such as gloves and safety glasses.\n   - Ensure the recloser is de-energized and properly locked out/tagged out according to safety procedures.\n\n2. Visual Inspection:\n   - Inspect the recloser for any physical damage, corrosion, or loose components.\n   - Check for evidence of overheating, such as discoloration or burnt marks.\n\n3. Cleanliness:\n   - Remove any dirt, debris, or contaminants from the exterior and around the recloser.\n   - Ensure that cooling vents are clear and unobstructed.\n\n4. Electrical Connections:\n   - Inspect all electrical connections, including terminals and control wiring, for tightness.\n   - Tighten any loose connections using the appropriate tools.\n\n5. Functional Testing:\n   - Conduct functional tests to ensure proper recloser operation.\n   - Test the recloser's ability to open and close under various load conditions.\n   - Verify the reclosing sequence and time delays according to specifications.\n\n6. Trip and Close Coil Tests:\n   - Test the trip and close coils for proper operation.\n   - Verify that the recloser responds correctly to control signals.\n\n7. Current and Voltage Measurement:\n   - Measure the current and voltage on the load side to ensure they are within the specified limits.\n   - Compare the measurements with the recloser's settings.\n\n8. Time-Current Characteristic Test:\n   - Perform a time-current characteristic test to verify that the recloser operates within the specified time-current curve.\n   - Adjust settings if necessary to ensure coordination with other protective devices on the distribution line.\n\n9. Insulation Resistance Test:\n   - Perform an insulation resistance test using a megohmmeter.\n   - Check the insulation resistance values and compare them with acceptable limits.\n\n10. Oil or Gas Level Check (if applicable):\n    - If the recloser is oil-filled or gas-insulated, check the level of oil or gas.\n    - Ensure that the insulating medium is within the recommended range.\n\n11. Recloser Control Unit Inspection:\n    - Inspect the control unit, including any electronic components and communication interfaces.\n    - Verify that the control unit settings are correct and that communication links are functioning.\n\n12. Documentation:\n    - Record all test results, adjustments, and maintenance activities.\n    - Document any corrective actions taken during the testing process.\n\n13. Lubrication (if applicable):\n    - If the recloser has moving parts, follow the manufacturer's recommendations for lubrication.\n    - Use specified lubricants compatible with the recloser's design.\n"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "transformer",
+      "patterns": [
+        "how to do maintenance of transformer?",
+        "how to fix a transformer?",
+        "issues with transformer",
+        "basic maintenance of transformer"
+      ],
+      "responses": [
+        "OK! Here is a basic procedure for testing and maintaining transformers:\n1. Visual Inspection:\n   - Conduct a visual inspection of the transformer, looking for any signs of physical damage, oil leaks, or discoloration.\n   - Check for loose connections and ensure that all components are properly secured.\n2. Oil Level Check:\n   - Inspect the oil level in the transformer. Ensure that it is within the specified operating range. Top up with oil if necessary.\n3. Oil Quality Test:\n   - Collect an oil sample from the transformer and send it to a laboratory for testing.\n   - Common tests include dissolved gas analysis (DGA) and dielectric strength testing to assess the condition of the insulation.\n4. Insulation Resistance Test:\n   - Perform an insulation resistance test using a megohmmeter.\n   - Measure the insulation resistance between windings and between windings and ground. Compare values with acceptable limits.\n5. Turns Ratio Test:\n   - Conduct a turns ratio test to ensure that the transformer's turns ratio matches the nameplate specifications.\n   - Any significant deviation may indicate a fault in the transformer.\n6. Transformer Turns Ratio (TTR) Test:\n   - Perform a TTR test to verify the turns ratio of the transformer windings.\n   - Ensure that the TTR readings are within the acceptable range.\n7. Power Factor Test:\n   - Conduct a power factor test to assess the insulation condition.\n   - A higher power factor may indicate deteriorating insulation.\n8. Winding Resistance Measurement:\n   - Measure the resistance of the transformer windings using a low-resistance ohmmeter.\n   - Compare the readings with baseline values to identify any significant changes.\n9. Buchholz Relay Test (if applicable):\n   - If the transformer is equipped with a Buchholz relay, test its operation by simulating a fault condition.\n   - Verify that the relay trips as expected.\n10. Bushing Insulation Test:\n    - Perform insulation tests on bushings using a megohmmeter.\n    - Check for any signs of cracking or deterioration.\n11. Tap Changer Inspection and Test:\n    - Inspect the tap changer mechanism for any mechanical issues.\n    - If the transformer has an on-load tap changer, perform tests to ensure proper operation.\n12. Cooling System Check:\n    - Inspect the cooling system, including fans and radiators, for any obstructions or damage.\n    - Clean or repair cooling components as needed.\n13. Grounding System Inspection:\n    - Inspect the grounding system to ensure proper connection and low impedance.\n    - Verify that the grounding connections are in good condition.\n14. Documentation:\n    - Maintain detailed records of all test results, inspections, and maintenance activities.\n    - Record any corrective actions taken during the testing process.\n15. Periodic Oil Filtration (if applicable):\n    - Consider periodic oil filtration to remove contaminants and improve the dielectric strength of the transformer oil.\n\n\n"
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
